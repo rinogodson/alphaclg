@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-position-y: 4em;
+  background-size: contain, cover;
+  background-color: rgba(20, 40, 72, 1);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: 40vh;
+  background-size: 100%;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 7%;
+  padding: 5px 0%;
+  background: rgba(20, 32, 51, 0.7);
+  backdrop-filter: blur(7px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  box-shadow: rgba(10, 22, 41, 0.6) 0px 10px 22px;
+}
+
+.header > img {
+  width: 72px;
+  height: 73px;
+  margin-top: -6px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 10px;
+  margin: 10px;
+}
+
+.al {
+  font-family: "Playfair Display", serif;
+  display: inline-block;
+  font-size: 2.5em;
+  color: white;
+  margin-top: 0.8em;
+  background-position: center;
+}
+
+.call > li > a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+.call > li {
+  list-style: none;
+}
+
+.social {
+  text-decoration: none;
+  list-style: none;
+}
+
+.social > li > a {
+  color: white;
+}
+
+.p1 > h5 {
+  align-content: left;
+  font-size: 4px;
+}
+
+.p1 {
+  font-family: "Noto Sans", sans-serif;
+  color: white;
+  text-align: left;
+  margin-left: 1em;
+}
+
+.list {
+  margin-left: -1em;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 10%;
+}
+
+.top {
+  font-size: 2em;
+  margin-left: 2em;
+  margin-right: 3em;
+  display: grid;
+
+  grid-template-columns: 50% 50%;
+}
+
+cpad {
+  padding-block: 4em 0.1em;
+  display: inline-block;
+  border: 1.5px solid #fffa;
+  border-radius: 2em;
+  background-color: rgba(10, 22, 41, 0.7);
+  margin-top: -1.4em;
+  box-shadow: rgba(10, 22, 41, 0.7) 0px 7px 15px;
+  margin-bottom: 1em;
+}
+
+.home {
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.call-bt > a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+}
+
+.call-bt {
+  font-size: 1.7em;
+  height: 2.5em;
+  border-radius: 300px;
+  aspect-ratio: 1/1;
+  border: 1.2px solid #fffa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(10, 22, 41, 0.7) 0px 7px 15px;
+  background-color: rgba(7, 27, 59, 1);
+  transition: all 400ms
+    linear(
+      0,
+      0.004,
+      0.016,
+      0.035,
+      0.063,
+      0.098,
+      0.141 13.6%,
+      0.25,
+      0.391,
+      0.563,
+      0.765,
+      1,
+      0.891 40.9%,
+      0.848,
+      0.813,
+      0.785,
+      0.766,
+      0.754,
+      0.75,
+      0.754,
+      0.766,
+      0.785,
+      0.813,
+      0.848,
+      0.891 68.2%,
+      1 72.7%,
+      0.973,
+      0.953,
+      0.941,
+      0.938,
+      0.941,
+      0.953,
+      0.973,
+      1,
+      0.988,
+      0.984,
+      0.988,
+      1
+    );
+}
+
+.call-bt:active {
+  box-shadow: 0 5px #000000;
+  transform: translateY(8px);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-bt {
+  height: 100vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dock {
+  width: fit-content;
+  height: 7.5em;
+  padding: 0.1em 0.5em;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: -2em;
+  gap: 10px;
+}
+
+.map > iframe {
+  filter: invert(90%) hue-rotate(180deg);
+  border-radius: 30px;
+  position: static;
+}
+
+.map-container iframe {
+  height: 100%;
+  border: 0;
+}
+
+#location {
+  height: 100%;
+}
+
+.mapofalpha {
+  position: static;
+}
+
+.loc {
+  font-family: "Noto Sans", sans-serif;
+  color: white;
+  margin-top: -1em;
+}
