@@ -10,7 +10,12 @@ body {
   flex-direction: column;
   justify-content: center;
   background-size: 40vh;
+  overflow-x: hidden;
   background-size: 100%;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 .header {
